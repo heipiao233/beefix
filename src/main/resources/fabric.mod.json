@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "beefix",
+  "version": "${version}",
+  "name": "Bee Fix",
+  "description": "Fix BV1nP411V7xQ",
+  "authors": [
+    "Hei Piao"
+  ],
+  "contact": {
+    "repo": "https://github.com/heipiao233/beefix"
+  },
+  "license": "MIT",
+  "icon": "assets/beefix/icon.png",
+  "environment": "*",
+  "mixins": [
+    "beefix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
